@@ -13,7 +13,7 @@ const Banner = ({handleSetCoin}) => {
 
                 <h1 className="text-3xl font-bold mb-2">Your Heading Here</h1>
                 <p className="mb-4">This is a paragraph that can describe something related to the banner image.</p>
-                <button onClick={()=> handleSetCoin(100)} className="bg-yellow-400 text-black py-2 px-4 rounded-xl">Claim Free Credit</button>
+                <button onClick={()=> handleSetCoin(999999)} className="bg-yellow-400 text-black py-2 px-4 rounded-xl">Claim Free Credit</button>
             </div>
         </div>
     );

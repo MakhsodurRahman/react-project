@@ -1,0 +1,141 @@
+[
+    {
+      "id":1,
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "rating": "Left-Hand-Bat",
+      "price": 1500000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":2,
+      "name": "Tamim Iqbal",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "rating": "Left-Hand-Bat",
+      "price": 1300000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":3,
+      "name": "Mushfiqur Rahim",
+      "country": "Bangladesh",
+      "role": "Wicketkeeper-Batsman",
+      "rating": "Right-Hand-Bat",
+      "price": 1400000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":4,
+      "name": "Mahmudullah",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "rating": "Right-Hand-Bat",
+      "price": 1200000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":5,
+      "name": "Mustafizur Rahman",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "rating": "Left-Hand-Bat",
+      "price": 1250000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":6,
+      "name": "Mehidy Hasan Miraz",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "rating": "Right-Hand-Bat",
+      "price": 1150000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":7,
+      "name": "Litton Das",
+      "country": "Bangladesh",
+      "role": "Wicketkeeper-Batsman",
+      "rating": "Right-Hand-Bat",
+      "price": 1100000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":8,
+      "name": "Taskin Ahmed",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "rating": "Right-Hand-Bat",
+      "price": 1050000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+
+      "id":9,
+      "name": "Soumya Sarkar",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "rating": "Left-Hand-Bat",
+      "price": 1000000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+
+      "id":10,
+      "name": "Mohammad Saifuddin",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "rating": "Right-Hand-Bat",
+      "price": 950000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":11,
+      "name": "Mominul Haque",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "rating": "Left-Hand-Bat",
+      "price": 900000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+
+      "id":12,
+      "name": "Najmul Hossain Shanto",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "rating": "Left-Hand-Bat",
+      "price": 850000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":13,
+      "name": "Afif Hossain",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "rating": "Left-Hand-Bat",
+      "price": 800000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":14,
+      "name": "Shoriful Islam",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "rating": "Left-Hand-Bat",
+      "price": 750000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    },
+    {
+      "id":15,
+      "name": "Naim Sheikh",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "rating": "Left-Hand-Bat",
+      "price": 700000,
+      "image_url": "/src/assets/images/tamim.jpg"
+    }
+]
+  
