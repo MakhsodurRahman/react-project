@@ -6,6 +6,7 @@ import RefForm from './components/RefForm/RefForm'
 import ReUseableForm from './components/ReuseableForm/ReUseableForm'
 import SimpleForm from './components/SimpleForm/SimpleForm'
 import StateFullForm from './components/StatefullForm/StateFullForm'
+import Dad from './components/Dad/Dad'
 
 function App() {
 
@@ -23,12 +24,14 @@ function App() {
       {/* <StateFullForm></StateFullForm> */}
       {/* <RefForm></RefForm> */}
       {/* <HookForm></HookForm> */}
-      <ReUseableForm formTitel='Sign-Up' submitBtnText='Sign-Up' handleSubmit={handleSignUpSubmit}>
+      {/* <ReUseableForm formTitel='Sign-Up' submitBtnText='Sign-Up' handleSubmit={handleSignUpSubmit}>
         <div>
           <h4>hello sign up</h4>
         </div>
       </ReUseableForm>
-      <ReUseableForm formTitel='Sign-In' submitBtnText='Sign-In' handleSubmit={handleSignInSubmit}></ReUseableForm>
+      <ReUseableForm formTitel='Sign-In' submitBtnText='Sign-In' handleSubmit={handleSignInSubmit}></ReUseableForm> */}
+
+      <Dad></Dad>
     </>
   )
 }
