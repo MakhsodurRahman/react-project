@@ -1,233 +1,216 @@
 {
-    "categories": [
+  "categories": [
       {
-        "category": "Goldfish",
-        "fish": [
-          {
-            "fish_id": "G001",
-            "fish_name": "Common Goldfish",
-            "fish_image": "https://example.com/common_goldfish.jpg",
-            "price": 3,
-            "description": "The classic goldfish, hardy and popular.",
-            "details": [
-              "Size: Up to 12 inches",
-              "Temperament: Peaceful"
-            ]
-          },
-          {
-            "fish_id": "G002",
-            "fish_name": "Comet Goldfish",
-            "fish_image": "https://example.com/comet_goldfish.jpg",
-            "price": 4,
-            "description": "Long, slender body and flowing fins.",
-            "details": [
-              "Size: Up to 12 inches",
-              "Temperament: Peaceful"
-            ]
-          },
-          {
-            "fish_id": "G003",
-            "fish_name": "Fantail Goldfish",
-            "fish_image": "https://example.com/fantail_goldfish.jpg",
-            "price": 5,
-            "description": "Double tail and rounded body.",
-            "details": [
-              "Size: Up to 8 inches",
-              "Temperament: Peaceful"
-            ]
-          },
-          {
-            "fish_id": "G004",
-            "fish_name": "Oranda Goldfish",
-            "fish_image": "https://example.com/oranda_goldfish.jpg",
-            "price": 6,
-            "description": "Characterized by its 'wen' or head growth.",
-            "details": [
-              "Size: Up to 8 inches",
-              "Temperament: Peaceful"
-            ]
-          },
-          {
-            "fish_id": "G005",
-            "fish_name": "Ryukin Goldfish",
-            "fish_image": "https://example.com/ryukin_goldfish.jpg",
-            "price": 5.5,
-            "description": "High back and pointed head.",
-            "details": [
-              "Size: Up to 8 inches",
-              "Temperament: Peaceful"
-            ]
-          }
-        ]
+          "category": "Goldfish",
+          "fish": [
+              {
+                  "fish_id": "G001",
+                  "fish_name": "Common Goldfish",
+                  "fish_image": "https://example.com/common_goldfish.jpg",
+                  "price": 3,
+                  "description": "The classic goldfish, hardy and popular.",
+                  "rating": 4.5,
+                  "details": [
+                      "Size: Up to 12 inches",
+                      "Temperament: Peaceful"
+                  ]
+              },
+              {
+                  "fish_id": "G002",
+                  "fish_name": "Comet Goldfish",
+                  "fish_image": "https://example.com/comet_goldfish.jpg",
+                  "price": 4,
+                  "description": "Long, slender body and flowing fins.",
+                  "rating": 4.7,
+                  "details": [
+                      "Size: Up to 12 inches",
+                      "Temperament: Peaceful"
+                  ]
+              },
+              {
+                  "fish_id": "G003",
+                  "fish_name": "Fantail Goldfish",
+                  "fish_image": "https://example.com/fantail_goldfish.jpg",
+                  "price": 5,
+                  "description": "Double tail and rounded body.",
+                  "rating": 4.6,
+                  "details": [
+                      "Size: Up to 8 inches",
+                      "Temperament: Peaceful"
+                  ]
+              },
+              {
+                  "fish_id": "G004",
+                  "fish_name": "Oranda Goldfish",
+                  "fish_image": "https://example.com/oranda_goldfish.jpg",
+                  "price": 6,
+                  "description": "Characterized by its 'wen' or head growth.",
+                  "rating": 4.8,
+                  "details": [
+                      "Size: Up to 8 inches",
+                      "Temperament: Peaceful"
+                  ]
+              }
+          ]
       },
       {
-        "category": "Betta-Fish",
-        "fish": [
-          {
-            "fish_id": "B001",
-            "fish_name": "Veiltail Betta",
-            "fish_image": "https://example.com/veiltail_betta.jpg",
-            "price": 10,
-            "description": "Long, flowing tail.",
-            "details": [
-              "Size: 2.5 inches",
-              "Temperament: Aggressive (males)"
-            ]
-          },
-          {
-            "fish_id": "B002",
-            "fish_name": "Crowntail Betta",
-            "fish_image": "https://example.com/crowntail_betta.jpg",
-            "price": 12,
-            "description": "Spiky tail fin.",
-            "details": [
-              "Size: 2.5 inches",
-              "Temperament: Aggressive (males)"
-            ]
-          },
-          {
-            "fish_id": "B003",
-            "fish_name": "Halfmoon Betta",
-            "fish_image": "https://example.com/halfmoon_betta.jpg",
-            "price": 15,
-            "description": "Tail fin forms a 180-degree spread.",
-            "details": [
-              "Size: 2.5 inches",
-              "Temperament: Aggressive (males)"
-            ]
-          },
-          {
-            "fish_id": "B004",
-            "fish_name": "Plakat Betta",
-            "fish_image": "https://example.com/plakat_betta.jpg",
-            "price": 11,
-            "description": "Short fins, closer to wild bettas.",
-            "details": [
-              "Size: 2.5 inches",
-              "Temperament: Aggressive (males)"
-            ]
-          },
-          {
-            "fish_id": "B005",
-            "fish_name": "Doubletail Betta",
-            "fish_image": "https://example.com/doubletail_betta.jpg",
-            "price": 13,
-            "description": "Two distinct tail fins.",
-            "details": [
-              "Size: 2.5 inches",
-              "Temperament: Aggressive (males)"
-            ]
-          }
-        ]
+          "category": "Betta-Fish",
+          "fish": [
+              {
+                  "fish_id": "B001",
+                  "fish_name": "Veiltail Betta",
+                  "fish_image": "https://example.com/veiltail_betta.jpg",
+                  "price": 10,
+                  "description": "Long, flowing tail.",
+                  "rating": 4.8,
+                  "details": [
+                      "Size: 2.5 inches",
+                      "Temperament: Aggressive (males)"
+                  ]
+              },
+              {
+                  "fish_id": "B002",
+                  "fish_name": "Crowntail Betta",
+                  "fish_image": "https://example.com/crowntail_betta.jpg",
+                  "price": 12,
+                  "description": "Spiky tail fin.",
+                  "rating": 4.9,
+                  "details": [
+                      "Size: 2.5 inches",
+                      "Temperament: Aggressive (males)"
+                  ]
+              },
+              {
+                  "fish_id": "B003",
+                  "fish_name": "Halfmoon Betta",
+                  "fish_image": "https://example.com/halfmoon_betta.jpg",
+                  "price": 15,
+                  "description": "Tail fin forms a 180-degree spread.",
+                  "rating": 4.6,
+                  "details": [
+                      "Size: 2.5 inches",
+                      "Temperament: Aggressive (males)"
+                  ]
+              },
+              {
+                  "fish_id": "B004",
+                  "fish_name": "Plakat Betta",
+                  "fish_image": "https://example.com/plakat_betta.jpg",
+                  "price": 11,
+                  "description": "Short fins, closer to wild bettas.",
+                  "rating": 4.7,
+                  "details": [
+                      "Size: 2.5 inches",
+                      "Temperament: Aggressive (males)"
+                  ]
+              }
+          ]
       },
       {
-        "category": "Cichlids",
-        "fish": [
-          {
-            "fish_id": "C001",
-            "fish_name": "Oscar Cichlid",
-            "fish_image": "https://example.com/oscar_cichlid.jpg",
-            "price": 20,
-            "description": "Intelligent and personable, grows large.",
-            "details": [
-              "Size: Up to 14 inches",
-              "Temperament: Semi-aggressive"
-            ]
-          },
-          {
-            "fish_id": "C002",
-            "fish_name": "Convict Cichlid",
-            "fish_image": "https://example.com/convict_cichlid.jpg",
-            "price": 8,
-            "description": "Known for their strong parental instincts.",
-            "details": [
-              "Size: Up to 6 inches",
-              "Temperament: Aggressive"
-            ]
-          },
-          {
-            "fish_id": "C003",
-            "fish_name": "Jack Dempsey Cichlid",
-            "fish_image": "https://example.com/jack_dempsey_cichlid.jpg",
-            "price": 18,
-            "description": "Dark coloration with iridescent spots.",
-            "details": [
-              "Size: Up to 10 inches",
-              "Temperament: Aggressive"
-            ]
-          },
-          {
-            "fish_id": "C004",
-            "fish_name": "Electric Blue Acara",
-            "fish_image": "https://example.com/electric_blue_acara.jpg",
-            "price": 15,
-            "description": "Bright blue coloration, peaceful for a cichlid.",
-            "details": [
-              "Size: Up to 6 inches",
-              "Temperament: Semi-aggressive"
-            ]
-          },
-          {
-            "fish_id": "C005",
-            "fish_name": "Firemouth Cichlid",
-            "fish_image": "https://example.com/firemouth_cichlid.jpg",
-            "price": 12,
-            "description": "Red coloration around the mouth.",
-            "details": [
-              "Size: Up to 6 inches",
-              "Temperament: Semi-aggressive"
-            ]
-          }
-        ]
+          "category": "Cichlids",
+          "fish": [
+              {
+                  "fish_id": "C001",
+                  "fish_name": "Oscar Cichlid",
+                  "fish_image": "https://example.com/oscar_cichlid.jpg",
+                  "price": 20,
+                  "description": "Intelligent and personable, grows large.",
+                  "rating": 4.6,
+                  "details": [
+                      "Size: Up to 14 inches",
+                      "Temperament: Semi-aggressive"
+                  ]
+              },
+              {
+                  "fish_id": "C002",
+                  "fish_name": "Convict Cichlid",
+                  "fish_image": "https://example.com/convict_cichlid.jpg",
+                  "price": 8,
+                  "description": "Known for their strong parental instincts.",
+                  "rating": 4.3,
+                  "details": [
+                      "Size: Up to 6 inches",
+                      "Temperament: Aggressive"
+                  ]
+              },
+              {
+                  "fish_id": "C003",
+                  "fish_name": "Jack Dempsey Cichlid",
+                  "fish_image": "https://example.com/jack_dempsey_cichlid.jpg",
+                  "price": 18,
+                  "description": "Dark coloration with iridescent spots.",
+                  "rating": 4.5,
+                  "details": [
+                      "Size: Up to 10 inches",
+                      "Temperament: Aggressive"
+                  ]
+              },
+              {
+                  "fish_id": "C004",
+                  "fish_name": "Electric Blue Acara",
+                  "fish_image": "https://example.com/electric_blue_acara.jpg",
+                  "price": 15,
+                  "description": "Bright blue coloration, peaceful for a cichlid.",
+                  "rating": 4.8,
+                  "details": [
+                      "Size: Up to 6 inches",
+                      "Temperament: Semi-aggressive"
+                  ]
+              }
+          ]
       },
       {
-        "category": "Tetras",
-        "fish": [
-          {
-            "fish_id": "T001",
-            "fish_name": "Neon Tetra",
-            "fish_image": "https://example.com/neon_tetra.jpg",
-            "price": 2.5,
-            "description": "Bright blue and red stripe, schooling fish.",
-            "details": [
-              "Size: 1.5 inches",
-              "Temperament: Peaceful"
-            ]
-          },
-          {
-            "fish_id": "T002",
-            "fish_name": "Cardinal Tetra",
-            "fish_image": "https://example.com/cardinal_tetra.jpg",
-            "price": 3,
-            "description": "Similar to neon tetra but with a longer red stripe.",
-            "details": [
-              "Size: 2 inches",
-              "Temperament: Peaceful"
-            ]
-          },
-          {
-            "fish_id": "T003",
-            "fish_name": "Ember Tetra",
-            "fish_image": "https://example.com/ember_tetra.jpg",
-            "price": 2.8,
-            "description": "Bright orange coloration, small and peaceful.",
-            "details": [
-              "Size: 1 inch",
-              "Temperament: Peaceful"
-            ]
-          },
-          {
-            "fish_id": "T004",
-            "fish_name": "Lemon Tetra",
-            "fish_image": "https://example.com/lemon_tetra.jpg",
-            "price": 3.2,
-            "description": "Yellow coloration, schooling fish.",
-            "details": [
-              "Size: 2 inches",
-              "Temperament: Peaceful"
-            ]
-          }
-        ]
+          "category": "Tetras",
+          "fish": [
+              {
+                  "fish_id": "T001",
+                  "fish_name": "Neon Tetra",
+                  "fish_image": "https://example.com/neon_tetra.jpg",
+                  "price": 2.5,
+                  "description": "Bright blue and red stripe, schooling fish.",
+                  "rating": 4.9,
+                  "details": [
+                      "Size: 1.5 inches",
+                      "Temperament: Peaceful"
+                  ]
+              },
+              {
+                  "fish_id": "T002",
+                  "fish_name": "Cardinal Tetra",
+                  "fish_image": "https://example.com/cardinal_tetra.jpg",
+                  "price": 3,
+                  "description": "Similar to neon tetra but with a longer red stripe.",
+                  "rating": 4.8,
+                  "details": [
+                      "Size: 2 inches",
+                      "Temperament: Peaceful"
+                  ]
+              },
+              {
+                  "fish_id": "T003",
+                  "fish_name": "Ember Tetra",
+                  "fish_image": "https://example.com/ember_tetra.jpg",
+                  "price": 2.8,
+                  "description": "Bright orange coloration, small and peaceful.",
+                  "rating": 4.7,
+                  "details": [
+                      "Size: 1 inch",
+                      "Temperament: Peaceful"
+                  ]
+              },
+              {
+                  "fish_id": "T004",
+                  "fish_name": "Lemon Tetra",
+                  "fish_image": "https://example.com/lemon_tetra.jpg",
+                  "price": 3.2,
+                  "description": "Yellow coloration, schooling fish.",
+                  "rating": 4.6,
+                  "details": [
+                      "Size: 2 inches",
+                      "Temperament: Peaceful"
+                  ]
+              }
+          ]
       }
-    ]
-  }
+  ]
+}

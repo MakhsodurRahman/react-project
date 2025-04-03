@@ -1,9 +1,14 @@
 import { Links, NavLink } from "react-router-dom";
 import { CiShoppingCart } from "react-icons/ci";
 import { GiSelfLove } from "react-icons/gi";
+import { useContext } from "react";
+import AddToCard from "../../../ContextApi/AddToCard";
 
 
 const Navbar = () => {
+
+  const cartSize = useContext(AddToCard);
+  console.log('add to cart size',cartSize[0].length)
 
   const navLinks = (
     <>
@@ -50,8 +55,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="p-3 bg-white rounded-full text-black"><CiShoppingCart /></a>
-          <a className="p-3 ml-2 bg-white rounded-full text-black"><GiSelfLove/></a>
+          <a className="p-3 bg-white rounded-full text-black flex items-center">
+            <CiShoppingCart />
+            <p>({cartSize[0].length})</p>
+          </a>
+          <a className="p-3 ml-2 bg-white rounded-full text-black pl-1"><GiSelfLove/></a>
         </div>
       </div>
     );

@@ -3,23 +3,22 @@ import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import Fish from "../Products/Fish/Fish";
 
-const Fishes = ({fishData,fishCategory}) => {
+const Fishes = ({displayFishes}) => {
     
 
 
      // ✅ Check if fishData is undefined before accessing 'categories'
-     if (!fishData || !fishData.categories) {
+     if (!displayFishes || !displayFishes) {
         return <p className="text-red-500">Loading fish data...</p>;
     }
 
-    const categoryWiseFishData = fishData.categories.find(cat => cat.category === fishCategory);
+    //const categoryWiseFishData = fishData.categories.find(cat => cat.category === fishCategory);
 
-    console.log('============= : ',categoryWiseFishData.fish)
     
     return (
-        <div>
+        <div className="grid grid-cols-1 md:grid-cols-3 max-w-5xl">
             {
-                categoryWiseFishData.fish.map(fish => <Fish key={fish.fish_id} fish={fish}></Fish>)
+                displayFishes.map(fish => <Fish key={fish.fish_id} singleFish={fish}></Fish>)
             }
         </div>
     );
